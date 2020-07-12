@@ -1,0 +1,98 @@
+.Nav_bar {
+    text-align: left;
+    padding-left: 2em;
+    text-emphasis-color: white;
+    color: white;
+    vertical-align: middle;
+    height: 5em;
+    width: 100%;
+    background-color:#192b91;
+    margin-top: 0em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+body {
+    background: #dce7e8;
+}
+
+.bottom {
+    border-top: inset;
+    height: 6em;
+    width: 100%;
+    position: absolute;
+    bottom: 0em;
+    text-align: center;
+    background-color: white;
+}
+
+.curr {
+    width: 45%;
+    float: left;
+    border-width: 4px;
+    border-right: solid;
+    border-left: solid;
+    padding-left: 1em;
+    margin-top: 2em;
+    padding-right: 1em;
+    margin-left: 2em;
+}
+
+#curr_1 {
+    text-align: center;
+    border-style: solid;
+    border-radius: 1em;
+}
+
+#filter {
+    margin-top: 1.6em;
+    margin-bottom: 1.6em;
+    border-top: solid;
+    border-bottom: solid;
+    text-align: left;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.create {
+    width: 45%;
+    border-width: 4px;
+    border-style: groove;
+    margin-top: 2em;
+    width: 30%;
+    margin-left: 60%;
+    padding-left: 2em;
+    line-height: 1.6em;
+    border-radius: 1em;
+    background-color: white;
+}
+
+.btns {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+.tasks {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 1em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    margin-top: 0.5em;
+}
+
+#list {
+    max-height: 30em;
+    overflow: scroll;
+}
+
+#image {
+    vertical-align: middle;
+    float: left;
+    height: 4em;
+    width: 4em;
+    margin-top: 0.75em;
+}
+
+#t1{
+    margin-left: 2.5em;
+}

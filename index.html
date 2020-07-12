@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo list</title>
+    <link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet"> 
+    <link rel = "stylesheet" type="text/css" href = "todo_de.css">
+</head>
+<body>
+    <div class = "Nav_bar">
+        <img src="icon.jpg" alt="#" id = "image">
+        <h1 id = "t1">TODO</h1>
+    </div>
+    <div class = "curr">
+        <div id = "curr_1">
+           <h2>Items in the list</h2>
+        </div>
+        <div id="filter">
+            <input type="radio" id = "All" name = "filter" value = "1" onclick="myfunc2(1)" checked>
+            <label for="All">All</label>
+            <input type="radio" id = "Completed" name = "filter" value = "2" onclick="myfunc2(2)">
+            <label for="Completed">Completed</label>
+            <input type="radio" id = "Incomplete" name = "filter" value = "3" onclick="myfunc2(3)">
+            <label for="Incomplete">Incomplete</label>
+        </div>
+        <div>
+            <div id = "list">
+                <p>No items to show</p>
+                <!-- <div class = "tasks">
+                    <p>Meeting with boss</p>
+                    <p>Deadline : <span>Date</span></p>
+                    <button id = "done">Mark as Done</button>
+                    <button id = "del">Delete</button>
+                    <button id = "edit">Edit</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <div class="create">
+        <h2 id = "addt">Add task</h2>
+        <form class = "frm_1">
+            <label for="Tname">Task Name : </label><br>
+            <input type="text" id = "Tname" name = "Tname" required><br>
+            <label for="Dead">Deadline : </label><br>
+            <input type="date" id = "Dead" name = "Dead" required><br>
+            <div class = 'btns'>
+                <button id = "submit">Add task</button>
+                <input type="reset">
+            </div>
+        </form>
+    </div>
+    <div class = "bottom">
+        <p id = "Creater">Created by rrohit2901</p>
+        <p id = "connect">Connect with me on github : <a href = "https://github.com/rrohit2901">rrohit2901</a></p>
+    </div>
+    <script src = "todo_act.js"></script>
+</body>
+</html>
